@@ -26,13 +26,13 @@ const Event = (props) => {
         </div>
         <div className="event-details">
           <div className="start-date">
-            {props.location.state.startTime}
+            Start date: {props.location.state.startTime}
           </div>
           <div className="end-date">
-            {props.location.state.endTime}
+            End date: {props.location.state.endTime}
           </div>
           <div className="event-location">
-            {props.location.state.location}
+            Location: {props.location.state.location}
           </div>
         </div>
         <div className="event-options-nav">
