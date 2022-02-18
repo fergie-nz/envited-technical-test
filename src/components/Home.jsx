@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom'
 
 import navImage from '../images/landing/Nav\ Bar_landing\ page.png'
 import createImage from '../images/landing/Create\ event\ button.png'
+import leftImage from '../images/landing/productleft.png'
+import middleImage from '../images/landing/productmiddle.png'
+import rightImage from '../images/landing/productright.png'
 
 const Home = () => {
 
@@ -29,7 +32,12 @@ const Home = () => {
       </Link>
       </div>
       <div className="landing-images">
-
+          <img src={leftImage} id="left-image" alt="left example card">
+          </img>
+          <img src={middleImage} id="middle-image" alt="left example card">
+          </img>
+          <img src={rightImage} id="right-image" alt="left example card">
+          </img>
       </div>
     </div>
   )
