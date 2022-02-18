@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+import Card from '@mui/material/Card';
 
 
 const Create = () => {
 
   const blankEventData = {
-    eventName: 'Event name',
-    hostName: 'Your name',
-    startTime: 'Start time and date',
-    endTime: 'End time and date',
-    location: 'Location',
-    photo: 'Photo'
+    eventName: 'Quidditch World Cup',
+    hostName: 'Ludo Bagman',
+    startTime: '10/6/1991',
+    endTime: '11/7/1991',
+    location: 'Somewhere in Northern Wales',
+    photo: ''
   }
 
   const [eventData, setEventData] = useState(blankEventData)
@@ -42,30 +45,25 @@ const Create = () => {
 
   return (
     <div className="create-page">
+      <Card variant="outlined" className="create-event-card">
       <form className="create-form">
         <div >
-          <input onChange={changeHandler} name="eventName" value={eventData.eventName}>
-          </input>
+        <TextField className="textfield" id="outlined-basic" label="Event name" variant="outlined" onChange={changeHandler} name="eventName" value={eventData.eventName}/>
         </div>
         <div>
-          <input onChange={changeHandler}name="hostName" value={eventData.hostName}>
-          </input>
+          <TextField className="textfield" id="outlined-basic" label="Your name" variant="outlined" onChange={changeHandler}name="hostName" value={eventData.hostName} />
         </div>
         <div>
-        <input onChange={changeHandler}name="startTime" value={eventData.startTime}>
-          </input>
+          <TextField className="textfield" id="outlined-basic" label="Outlined" variant="outlined" onChange={changeHandler} name="startTime" value={eventData.startTime} />
         </div>
         <div>
-        <input onChange={changeHandler}name="endTime" value={eventData.endTime}>
-          </input>
+         <TextField className="textfield" id="outlined-basic" label="Outlined" variant="outlined" onChange={changeHandler}name="endTime" value={eventData.endTime}/>
         </div>
         <div>
-        <input onChange={changeHandler}name="location" value={eventData.location}>
-          </input>
+          <TextField className="textfield" id="outlined-basic" label="Outlined" variant="outlined" onChange={changeHandler}name="location" value={eventData.location}/>
         </div>
         <div>
-        <input onChange={changeHandler}name="photo" value={eventData.photo}>
-          </input>
+          <TextField className="textfield" id="outlined-basic" label="Outlined" variant="outlined" onChange={changeHandler}name="photo" value={eventData.photo} />
         </div>
       </form>
       <Link to={{
@@ -75,6 +73,7 @@ const Create = () => {
           Next
         </button>
       </Link>
+      </Card>
     </div>
   )
 }

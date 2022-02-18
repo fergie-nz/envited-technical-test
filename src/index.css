@@ -91,3 +91,7 @@ body {
 .event-photo-box {
   max-height: 25vh;
 }
+
+.create-form .textfield {
+  margin: 10px;
+}
