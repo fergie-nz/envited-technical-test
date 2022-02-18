@@ -30,4 +30,13 @@ This is an example of how to list things you need to use the software and how to
 
 This will run on local host port 3000
 
+## Future work
+
+- Finish styling event page
+- Edit event functionality
+- Tidy CSS, preferably with SCSS/Sass
+- Style Create Event page to be more aligned with rest of the app
+- Test responsiveness
+- Test accessibility (e.g. alt text for screenreaders, colour blind friendliness, contrast, font size & weights)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
