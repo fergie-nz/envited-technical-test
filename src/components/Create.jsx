@@ -1,14 +1,13 @@
 import React from "react"
 
-const Event = () => {
+const Create = () => {
 
   return (
     <div>
-      <h1>Event</h1>
+      <h1>Create</h1>
     </div>
   )
 }
 
 
-
-export default Event
+export default Create
