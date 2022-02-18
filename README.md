@@ -14,7 +14,7 @@ Envited technical test by Fergus Roache.
 
 See Heroku deployment at:
 
-https://git.heroku.com/fergus-roache-envited.git
+https://fergus-roache-envited.herokuapp.com/
 
 <!-- GETTING STARTED -->
 
