@@ -10,7 +10,7 @@ const Event = (props) => {
         <img id="event-photo" src={eventImage} alt="eventphoto"></img>
       </div>
       <div className="event-information">
-        <div className="event-title">
+        <div className="event-title heading heading-blue">
           {props.location.state.eventName}
         </div>
         <div className="event-sub-title">

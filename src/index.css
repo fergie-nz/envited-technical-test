@@ -75,6 +75,10 @@ body {
   color: rgb(55, 53, 47);
 }
 
+.heading-blue {
+  color: #501FC1;
+}
+
 .subheading {
   max-width: 80%;
   margin-left: auto;
@@ -94,6 +98,9 @@ body {
 }
 
 .event-photo-box {
+  max-height: 25vh;
+}
+.event-photo-box #event-photo {
   max-height: 25vh;
 }
 
@@ -127,7 +134,6 @@ body {
   position: absolute;
   margin-left: 5vw;
   margin-top: 2.5vw;
-
 }
 #middle-image {
   display: block;
@@ -143,4 +149,12 @@ body {
   margin-right: 5vw;
   margin-top: 2.5vw;
   margin-left: auto;
+}
+
+.event-information {
+  background-color: #ffffff;
+}
+
+.event-title {
+
 }
