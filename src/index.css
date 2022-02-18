@@ -12,7 +12,7 @@ body {
 .create-page {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #501FC1, #C346D5)
+  background-image: linear-gradient(to bottom right, #501fc1, #c346d5);
 }
 
 .nav-bar {
@@ -86,4 +86,8 @@ body {
   letter-spacing: -0.32px;
 
   color: #ffffff;
+}
+
+.event-photo-box {
+  max-height: 25vh;
 }
